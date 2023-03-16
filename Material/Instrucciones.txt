@@ -1,0 +1,53 @@
+Sistemas Gestores de Bases de Datos.
+
+SQLite (pequeño tamaño, no necesita servidor,
+poca configuración, ser transaccional, se de código libre).
+Para crear, actualizar y conectar una Base de Datos SQLite, será a través de una
+clase auxiliar llamada SQLiteOpenHelper.
+
+La clase SQLiteOpenHelper tiene un constructor que normalmente no necesitamos 
+sobreescribirla y dos métodos abstractos onCreate y onUpgrade que debemos personalizar
+con el código necesario para crear nuestra Base de Datos y para Actualizar su
+estructura.
+
+
+
+
+
+
+
+
+
+
+1.- Crear la clase AdminSQLiteOpenHelper.
+En el paquete crear la clase.
+importar import android.database.sqlite.SQLiteOpenHelper;
+Utilizamos HERENCIA extends SQLiteOpenHelper
+Aqui marca error, porque falta agregar los métodos, presionamos ALt+ Enter y
+selccionamos Implement methods.
+Sigue marcando error, porque falta agregar el constructor, presionamos ALt+ Enter
+y selccionamos Create constructor..... (selccionamos la primera opción)
+HASTA AQUÍ SE CREO EL CUERPO BASE DE LA CLASE.
+
+2.- En el método onCreate cambiamos sqLiteDatabase --> BaseDeDatos (nombre de la Base de Datos)
+y colocamos la primera línea en dicho método.
+
+3.- Vamos a distribuir los controles de la activity_main.xml
+4.- strings.xml
+5.- Colocar código dentro del método onCreate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.- Crear el método registrar (hasta aqui se termina el primer video).

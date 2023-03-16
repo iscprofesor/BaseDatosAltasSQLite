@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaseDatosAltasSQLite</string>
+    <string name="txtCodigo">Código del producto</string>
+    <string name="txtDescripcion">Descrición del producto</string>
+    <string name="txtPrecio">Precio del producto</string>
+    <string name="btnRegistrar">Registrar producto</string>
+    <string name="btnBuscar">Buscar producto</string>
+    <string name="btnEliminar">Eliminar prodcuto</string>
+    <string name="btnModificar">Modificar producto</string>
+</resources>
